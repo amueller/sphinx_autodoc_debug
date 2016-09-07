@@ -42,6 +42,7 @@ templates_path = ['_templates']
 
 autodoc_default_flags = ['members', 'inherited-members']
 autosummary_generate = True
+numpydoc_show_class_members = False
 
 
 # The suffix(es) of source filenames.
