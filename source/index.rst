@@ -28,3 +28,9 @@ Indices and tables
    :template: function.rst
 
    main.my_function
+
+.. autosummary::
+   :toctree: generated/
+   :template: class.rst
+
+   main.MyClass
