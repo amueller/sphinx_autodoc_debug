@@ -36,6 +36,9 @@ class MyClass(object):
     not_attribute : string
         It's not actually there.
 
+    bad_attribute_ : int
+        This one has a trailing underscore. uh-oh!
+
     """
     def __init__(self):
         pass
@@ -49,6 +52,9 @@ class MyClass(object):
         ----------
         self : MyClass instance
             Because it's a method! It's myself!
+
+        parameter_with_underscore_ : because
+            Apparently this is fine in parameters.
 
         Notes
         -----
