@@ -13,8 +13,8 @@ def my_function(my_parameter):
     my_parameter : string
         A parameter.
 
-    Note
-    ----
+    Notes
+    -----
     This docstring contains an undefined reference_.
     """
     pass

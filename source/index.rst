@@ -19,5 +19,12 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+.. automodule:: main
+   :no-members:
+   :no-inherited-members:
 
-.. autofunction:: main.my_function
+.. autosummary::
+   :toctree: generated/
+   :template: function.rst
+
+   main.my_function

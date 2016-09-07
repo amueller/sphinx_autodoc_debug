@@ -33,10 +33,16 @@ sys.path.insert(0, os.path.abspath('..'))
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'numpydoc.numpydoc'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+autodoc_default_flags = ['members', 'inherited-members']
+autosummary_generate = True
+
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
