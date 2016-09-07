@@ -42,7 +42,16 @@ class MyClass(object):
 
     def other_method(self):
         """The method!
- 
+
         This is the best method any class ever had!
+
+        Parameters
+        ----------
+        self : MyClass instance
+            Because it's a method! It's myself!
+
+        Notes
+        -----
+        There's also an undefined_ reference here!
         """
         pass
